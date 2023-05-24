@@ -16,7 +16,7 @@ const SongCard = ({song, playSongHandler, playMusic}) => {
   return(
   <div>
     <div className="rounded-full bg-[#00000029]">
-      {isHovering && <BsPlayFill className='bg-[#ffffff79] sm:w-4 w-0 rounded-full absolute mt-12 ml-12'/>}
+      {isHovering && <BsPlayFill className='bg-[#ffffff79] rounded-full absolute mt-12 ml-12'/>}
       <img onMouseOver={handleMouseOver}
           onMouseOut={handleMouseOut} className={`w-28 p-3 rounded-full opacity-100 ${song.key==playMusic && "rotate-animation"}`}
           onClick={() => playSongHandler(song)}

@@ -19,7 +19,7 @@ const Sidebar = () => (
     </div>
 
     <div style={{
-      position:'absolute',
+      position:'fixed',
       bottom:0,
       justifyContent:'space-around'
     }} className="sm:invisible w-full text-center flex h-24 p-2 bg-[#250011] ">

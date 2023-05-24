@@ -1,4 +1,5 @@
 import { HiOutlineHashtag, HiOutlineHome, HiPlay, HiOutlineUserGroup } from 'react-icons/hi';
+import { BsMusicNoteBeamed } from 'react-icons/bs';
 
 export const genres = [
   { title: 'Pop', value: 'POP' },
@@ -18,7 +19,7 @@ export const genres = [
 ];
 
 export const links = [
-  { name: 'Music', to: '/music', icon: HiOutlineHome },
+  { name: 'Music', to: '/music', icon: BsMusicNoteBeamed },
   { name: 'Podcast', to: '/around-you', icon: HiPlay },
   { name: 'Explore', to: '/top-artists', icon: HiOutlineUserGroup },
   { name: 'Library', to: '/top-charts', icon: HiOutlineHashtag },
